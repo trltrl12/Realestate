@@ -30,7 +30,7 @@ export default function Footer() {
               <li><a href="#features" className="hover:text-white transition-colors">Features</a></li>
               <li><a href="#pricing" className="hover:text-white transition-colors">Pricing</a></li>
               <li><a href="#how-it-works" className="hover:text-white transition-colors">How It Works</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Integrations</a></li>
+              <li><button className="hover:text-white transition-colors">Integrations</button></li>
             </ul>
           </div>
 
@@ -38,10 +38,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact</a></li>
+              <li><button className="hover:text-white transition-colors">About Us</button></li>
+              <li><button className="hover:text-white transition-colors">Careers</button></li>
+              <li><button className="hover:text-white transition-colors">Blog</button></li>
+              <li><button className="hover:text-white transition-colors">Contact</button></li>
             </ul>
           </div>
 
@@ -49,10 +49,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Security</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">GDPR</a></li>
+              <li><button className="hover:text-white transition-colors">Privacy Policy</button></li>
+              <li><button className="hover:text-white transition-colors">Terms of Service</button></li>
+              <li><button className="hover:text-white transition-colors">Security</button></li>
+              <li><button className="hover:text-white transition-colors">GDPR</button></li>
             </ul>
           </div>
         </div>
@@ -62,9 +62,9 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} RealMetrics Pro. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-navy-500">
-            <a href="#" className="hover:text-white transition-colors">Twitter</a>
-            <a href="#" className="hover:text-white transition-colors">LinkedIn</a>
-            <a href="#" className="hover:text-white transition-colors">YouTube</a>
+            <button className="hover:text-white transition-colors">Twitter</button>
+            <button className="hover:text-white transition-colors">LinkedIn</button>
+            <button className="hover:text-white transition-colors">YouTube</button>
           </div>
         </div>
       </div>

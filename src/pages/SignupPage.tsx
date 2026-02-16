@@ -150,8 +150,8 @@ export default function SignupPage() {
               <input id="terms" type="checkbox" className="w-4 h-4 mt-0.5 rounded border-navy-300 text-emerald-500 focus:ring-emerald-500" required />
               <label htmlFor="terms" className="text-sm text-navy-600">
                 I agree to the{' '}
-                <a href="#" className="text-emerald-600 hover:text-emerald-700 font-medium">Terms of Service</a> and{' '}
-                <a href="#" className="text-emerald-600 hover:text-emerald-700 font-medium">Privacy Policy</a>
+                <button type="button" className="text-emerald-600 hover:text-emerald-700 font-medium">Terms of Service</button> and{' '}
+                <button type="button" className="text-emerald-600 hover:text-emerald-700 font-medium">Privacy Policy</button>
               </label>
             </div>
             <button type="submit" className="btn-primary w-full py-3.5 mt-2">
